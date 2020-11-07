@@ -1,0 +1,287 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+}
+h1{
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+/* NAVIGATIE */
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom-width: thick;
+  border-bottom-style: groove;
+} 
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  padding-top: 30px;
+  font-family: sans-serif;
+  display: flex;
+  color: #707070;
+}
+
+li:first-child{
+  flex-grow: 1;
+  font-size: 2em; 
+}
+
+a:hover{
+  color: black;
+}
+
+p{
+  margin: 10px;
+}
+
+/* Over mij */ 
+
+.ditbenik {
+  background-color:#D6E9FE;
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  display: flex;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.ditbenik2 {
+  background-color:#C8C6FA;
+  display: flex;
+  padding: 1em;
+  flex-direction: row;  
+  position: relative;
+  display: flex;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+
+.ookditbenik  {
+background-color:hsl(0, 78%, 75%);
+display: flex;
+padding: 1em;
+flex-direction: row;
+  position: relative;
+  display: flex;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.ditbenikopreis {
+  background-color: #b3e591;
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  display: flex;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+/* portfolio */ 
+
+h3{
+margin: 10px;
+}
+
+.RedesignIamCorewebsite {
+  background-color:#D6E9FE;
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  font-family: sans-serif;
+  color: #707070;
+  width: 80%;
+}
+
+.ClashofCultures {
+  background-color: #C8C6FA;
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  font-family: sans-serif;
+  color: #707070;
+  width: 80%;
+}
+
+.WorldWideVegan {
+  background-color: #b3e591;
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  font-family: sans-serif;
+  color: #707070;
+  width: 80%;
+}
+
+.PlasticWhaleFoundation {
+  background-color:hsl(0, 78%, 75%);
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  padding: 1em;
+  font-family: sans-serif;
+  color: #707070;
+  width: 80%;
+}
+
+/* Clash of Cultures */
+
+.deel1clashofcultures, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel2clashofcultures, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel3clashofcultures, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel4clashofcultures, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+/* Redesign iamCore */
+
+.redesigniamcore, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel2redesigniamcore, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel3redesigniamcore, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel4redesigniamcore, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel5redesigniamcore, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+.deel6redesigniamcore, p {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  position: relative;
+  width: 80%;
+  font-family: sans-serif;
+  color: #707070;
+}
+
+
+/* Contact gegevens */
+
+form{
+  margin: 10px;
+  background-color: #C8C6FA;
+  padding:10px;
+  color: #707070;
+  border: groove;
+}
+
+.form {
+  width: 35%;
+}
+
+.commentaar{
+  margin-left: 0;
+}
+/* LINKJES */
+
+a:link{
+  text-decoration: none;
+  color:#707070;
+  display: flex;
+  flex-direction: row;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #707070;
+}
+
+/* FOOTER */
+
+footer{
+  text-align: center;
+  color: #707070;
+  font-family: sans-serif;
+  background-color: #D6E9FE;
+  margin: 20px;
+}
